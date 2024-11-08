@@ -1,2 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graphics Programming on Austin Gebauer</title><link>http://austingebauer.dev/categories/graphics-programming/</link><description>Recent content in Graphics Programming on Austin Gebauer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://austingebauer.dev/categories/graphics-programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Writing a Ray Tracer in Go</title><link>http://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2019/ray-tracing/</guid><description>Table of Contents Motivation Tools for the Job Rendering 1 - Projectile Rendering 2 - Clock Rendering 3 - 2D Spheres Rendering 4 - 3D Spheres Rendering 5 - World Rendering 6 - World with Shadows Motivation I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.
-I decided to take the time to learn about graphics programming this year. After doing a bit of research on rendering techniques, I decided to learn about a particular technique called ray tracing.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Graphics Programming on Austin Gebauer</title><link>https://austingebauer.dev/categories/graphics-programming/</link><description>Recent content in Graphics Programming on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/categories/graphics-programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Writing a Ray Tracer in Go</title><link>https://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2019/ray-tracing/</guid><description>&lt;img class="img-fluid" src="images/world_shadow_3d.png"/>
+&lt;h4 id="table-of-contents">Table of Contents&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tools-for-the-job">Tools for the Job&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-1-projectile">Rendering 1 - Projectile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-2-clock">Rendering 2 - Clock&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-3-2d-spheres">Rendering 3 - 2D Spheres&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-4-3d-spheres">Rendering 4 - 3D Spheres&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-5-world">Rendering 5 - World&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-6-world-with-shadows">Rendering 6 - World with Shadows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="motivation">Motivation&lt;/h4>
+&lt;p>I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.&lt;/p>
+&lt;p>I decided to take the time to learn about graphics programming this year.
+After doing a bit of research on rendering techniques, I decided to
+learn about a particular technique called &lt;a href="https://en.wikipedia.org/wiki/Ray_tracing_(graphics)">ray tracing&lt;/a>.
+Ray tracing can be used to render photorealistic scenes.&lt;/p></description></item></channel></rss>

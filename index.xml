@@ -1,11 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Austin Gebauer</title><link>http://austingebauer.dev/</link><description>Recent content on Austin Gebauer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://austingebauer.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Opening files with Vim from the Finder on macOS</title><link>http://austingebauer.dev/post/2020/finder-vim/</link><pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2020/finder-vim/</guid><description>I use Vim for most all the file editing I do on my Mac. I thought it&amp;rsquo;d be nice to be able to click on files in the Finder window and have them open up in my terminal for editing with Vim, so I wrote a bit of AppleScript to make it happen. This post shares how I set this up on my Mac so that you can do the same.</description></item><item><title>Bitwise Tricks in Go</title><link>http://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</link><pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</guid><description>This post contains a collection of problems that I&amp;rsquo;ve solved using bitwise operators in Go. I&amp;rsquo;ll be trying to keep the examples as practical as possible. I plan to continue updating this post as I find more examples to share with you-all.
-Bitwise Operators Go provides operators that perform bitwise logical and bit shift operations on integer types.
-The bitwise logical operators are: &amp;amp; bitwise AND | bitwise OR ^ bitwise XOR &amp;amp;^ bit clear (AND NOT)</description></item><item><title>How to use the theme on this website</title><link>http://austingebauer.dev/post/2020/devise-hugo-theme/</link><pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2020/devise-hugo-theme/</guid><description>My first Hugo website theme, Devise, was recently accepted into the Hugo themes gallery. I&amp;rsquo;m excited to share that you can now use it for your own website.
-You can find instructions for installing, configuring, and updating the theme here.
-I&amp;rsquo;d greatly appreciate a Github project star ⭐ if you like the theme. If you have an idea for a new feature or found a bug, please feel free to use Github issues to let me know.</description></item><item><title>Sorting maps in Go</title><link>http://austingebauer.dev/post/2020/sorting-maps-in-go/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2020/sorting-maps-in-go/</guid><description>Go provides a built-in map type that implements a hash table (i.e., associative array that can map keys to values).
-When iterating over a map, the iteration order isn&amp;rsquo;t specified and has no guarantee to be the same from one iteration to the next. So, if you require a certain iteration order, you&amp;rsquo;ll need to create a separate data structure that specifies that order.
-In this post, I&amp;rsquo;ll show examples of how to specify that iteration order.</description></item><item><title>Writing a Ray Tracer in Go</title><link>http://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/post/2019/ray-tracing/</guid><description>Table of Contents Motivation Tools for the Job Rendering 1 - Projectile Rendering 2 - Clock Rendering 3 - 2D Spheres Rendering 4 - 3D Spheres Rendering 5 - World Rendering 6 - World with Shadows Motivation I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.
-I decided to take the time to learn about graphics programming this year. After doing a bit of research on rendering techniques, I decided to learn about a particular technique called ray tracing.</description></item><item><title>About</title><link>http://austingebauer.dev/about/</link><pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate><guid>http://austingebauer.dev/about/</guid><description>About Hello 👋 I&amp;rsquo;m Austin Gebauer. I live in Seattle, Washington.
-I&amp;rsquo;m a senior software engineer at HashiCorp working on the Vault product. I&amp;rsquo;m also currently a graduate student at the University of Washington&amp;rsquo;s Paul G. Allen School of Computer Science and Engineering.
-Previously, I&amp;rsquo;ve worked as a software engineer at NGINX and F5 Networks.
-Contact You can reach me by email at austindg@cs.washington.edu. You can also connect with me on LinkedIn, GitHub, and Twitter.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Austin Gebauer</title><link>https://austingebauer.dev/</link><description>Recent content on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Opening files with Vim from the Finder on macOS</title><link>https://austingebauer.dev/post/2020/finder-vim/</link><pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/finder-vim/</guid><description>&lt;p>I use &lt;a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim&lt;/a> for most all the file editing I do
+on my Mac. I thought it&amp;rsquo;d be nice to be able to click on files in the Finder window and have them
+open up in my terminal for editing with Vim, so I wrote a bit of
+&lt;a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html">AppleScript&lt;/a>
+to make it happen. This post shares how I set this up on my Mac so that you can do the same. The
+guide assumes that the terminal being used will be &lt;a href="https://www.iterm2.com/">iTerm2&lt;/a>.&lt;/p></description></item><item><title>Bitwise Tricks in Go</title><link>https://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</link><pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</guid><description>&lt;p>This post contains a collection of problems that I&amp;rsquo;ve solved using bitwise operators in
+&lt;a href="https://golang.org/">Go&lt;/a>. I&amp;rsquo;ll be trying to keep the examples as practical as possible.
+I plan to continue updating this post as I find more examples to share with you-all.&lt;/p>
+&lt;h4 id="bitwise-operators">Bitwise Operators&lt;/h4>
+&lt;p>Go provides operators that perform bitwise logical and bit shift
+operations on integer types.&lt;/p>
+&lt;p>The &lt;strong>bitwise logical&lt;/strong> operators are:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>&amp;amp; bitwise AND
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| bitwise OR
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>^ bitwise XOR
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;amp;^ bit clear (AND NOT)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>How to use the theme on this website</title><link>https://austingebauer.dev/post/2020/devise-hugo-theme/</link><pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/devise-hugo-theme/</guid><description>&lt;p>My first &lt;a href="https://gohugo.io/">Hugo&lt;/a> website theme, &lt;a href="https://themes.gohugo.io/devise">Devise&lt;/a>,
+was recently accepted into the Hugo &lt;a href="https://themes.gohugo.io/">themes gallery&lt;/a>. I&amp;rsquo;m excited
+to share that you can now use it for your own website.&lt;/p>
+&lt;p>You can find instructions for installing, configuring, and updating the theme
+&lt;a href="https://themes.gohugo.io/devise/">here&lt;/a>.&lt;/p>
+&lt;p>I&amp;rsquo;d greatly appreciate a Github &lt;a href="https://github.com/austingebauer/devise">project&lt;/a> star &amp;#x2b50; if
+you like the theme. If you have an idea for a new feature or found a bug, please feel
+free to use GitHub &lt;a href="https://github.com/austingebauer/devise/issues">issues&lt;/a> to let me know.&lt;/p></description></item><item><title>Sorting maps in Go</title><link>https://austingebauer.dev/post/2020/sorting-maps-in-go/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/sorting-maps-in-go/</guid><description>&lt;p>&lt;a href="https://golang.org/">Go&lt;/a> provides a built-in &lt;a href="https://tour.golang.org/moretypes/19">map type&lt;/a> that implements a
+hash table (i.e., associative array that can map keys to values).&lt;/p>
+&lt;p>When iterating over a map, the iteration order isn&amp;rsquo;t specified and has
+no guarantee to be the same from one iteration to the next. So, if you require a certain
+iteration order, you&amp;rsquo;ll need to create a separate data structure that specifies that
+order.&lt;/p>
+&lt;p>In this post, I&amp;rsquo;ll show examples of how to specify that iteration order. I&amp;rsquo;ll first
+present a problem and next show examples of how to solve it by sorting the contents
+of a map by &lt;strong>key&lt;/strong> and/or &lt;strong>value&lt;/strong>.&lt;/p></description></item><item><title>Writing a Ray Tracer in Go</title><link>https://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2019/ray-tracing/</guid><description>&lt;img class="img-fluid" src="images/world_shadow_3d.png"/>
+&lt;h4 id="table-of-contents">Table of Contents&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#tools-for-the-job">Tools for the Job&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-1-projectile">Rendering 1 - Projectile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-2-clock">Rendering 2 - Clock&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-3-2d-spheres">Rendering 3 - 2D Spheres&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-4-3d-spheres">Rendering 4 - 3D Spheres&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-5-world">Rendering 5 - World&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rendering-6-world-with-shadows">Rendering 6 - World with Shadows&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="motivation">Motivation&lt;/h4>
+&lt;p>I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.&lt;/p>
+&lt;p>I decided to take the time to learn about graphics programming this year.
+After doing a bit of research on rendering techniques, I decided to
+learn about a particular technique called &lt;a href="https://en.wikipedia.org/wiki/Ray_tracing_(graphics)">ray tracing&lt;/a>.
+Ray tracing can be used to render photorealistic scenes.&lt;/p></description></item><item><title>About</title><link>https://austingebauer.dev/about/</link><pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/about/</guid><description>&lt;h4 id="about">About&lt;/h4>
+&lt;p>Hello &amp;#x1f44b; I&amp;rsquo;m Austin Gebauer. I live in Seattle, Washington.&lt;/p>
+&lt;p>I&amp;rsquo;m a senior software engineer at &lt;a href="https://www.hashicorp.com/">HashiCorp&lt;/a>
+working on the &lt;a href="https://www.hashicorp.com/products/vault/">Vault&lt;/a> product. I&amp;rsquo;m also
+currently a graduate student at the University of Washington&amp;rsquo;s
+&lt;a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School&lt;/a>
+of Computer Science and Engineering.&lt;/p>
+&lt;p>Previously, I&amp;rsquo;ve worked as a software engineer at
+&lt;a href="https://www.nginx.com/" target="_blank">NGINX&lt;/a> and
+&lt;a href="https://f5.com" target="_blank">F5 Networks&lt;/a>.&lt;/p>
+&lt;h4 id="contact">Contact&lt;/h4>
+&lt;p>You can reach me by email at &lt;a href="mailto:gebauer.austin@gmail.com">gebauer.austin@gmail.com&lt;/a>. You can also connect with me on
+&lt;a href="https://www.linkedin.com/in/austingebauer" target="_blank">LinkedIn&lt;/a>,
+&lt;a href="https://github.com/austingebauer" target="_blank">GitHub&lt;/a>, and
+&lt;a href="https://twitter.com/austingebauer" target="_blank">X&lt;/a>.&lt;/p></description></item></channel></rss>
