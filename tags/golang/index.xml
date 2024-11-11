@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on Austin Gebauer</title><link>https://austingebauer.dev/tags/golang/</link><description>Recent content in Golang on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitwise Tricks in Go</title><link>https://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</link><pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/bitwise-and-bit-shift-operators-in-go/</guid><description>&lt;p>This post contains a collection of problems that I&amp;rsquo;ve solved using bitwise operators in
-&lt;a href="https://golang.org/">Go&lt;/a>. I&amp;rsquo;ll be trying to keep the examples as practical as possible.
-I plan to continue updating this post as I find more examples to share with you-all.&lt;/p>
-&lt;h4 id="bitwise-operators">Bitwise Operators&lt;/h4>
-&lt;p>Go provides operators that perform bitwise logical and bit shift
-operations on integer types.&lt;/p>
-&lt;p>The &lt;strong>bitwise logical&lt;/strong> operators are:
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>&amp;amp; bitwise AND
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| bitwise OR
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>^ bitwise XOR
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;amp;^ bit clear (AND NOT)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p></description></item><item><title>Sorting maps in Go</title><link>https://austingebauer.dev/post/2020/sorting-maps-in-go/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2020/sorting-maps-in-go/</guid><description>&lt;p>&lt;a href="https://golang.org/">Go&lt;/a> provides a built-in &lt;a href="https://tour.golang.org/moretypes/19">map type&lt;/a> that implements a
-hash table (i.e., associative array that can map keys to values).&lt;/p>
-&lt;p>When iterating over a map, the iteration order isn&amp;rsquo;t specified and has
-no guarantee to be the same from one iteration to the next. So, if you require a certain
-iteration order, you&amp;rsquo;ll need to create a separate data structure that specifies that
-order.&lt;/p>
-&lt;p>In this post, I&amp;rsquo;ll show examples of how to specify that iteration order. I&amp;rsquo;ll first
-present a problem and next show examples of how to solve it by sorting the contents
-of a map by &lt;strong>key&lt;/strong> and/or &lt;strong>value&lt;/strong>.&lt;/p></description></item><item><title>Writing a Ray Tracer in Go</title><link>https://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2019/ray-tracing/</guid><description>&lt;img class="img-fluid" src="images/world_shadow_3d.png"/>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on Austin Gebauer</title><link>https://austingebauer.dev/tags/golang/</link><description>Recent content in Golang on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Writing a ray tracer in Go</title><link>https://austingebauer.dev/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/2019/ray-tracing/</guid><description>&lt;img class="img-fluid" src="images/world_shadow_3d.png"/>
 &lt;h4 id="table-of-contents">Table of Contents&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="#motivation">Motivation&lt;/a>&lt;/li>
