@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Austin Gebauer</title><link>https://austingebauer.dev/</link><description>Recent content on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2023, Austin Gebauer</copyright><lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>The books I've read each year</title><link>https://austingebauer.dev/post/books/</link><pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/books/</guid><description>&lt;p>Short takeaways from books I&amp;rsquo;ve read over the years. I think distillation of information is an important
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Austin Gebauer</title><link>https://austingebauer.dev/</link><description>Recent content on Austin Gebauer</description><generator>Hugo</generator><language>en-us</language><copyright>&amp;copy; Copyright 2025, Austin Gebauer</copyright><lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://austingebauer.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>The books I've read each year</title><link>https://austingebauer.dev/post/books/</link><pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/post/books/</guid><description>&lt;p>Short takeaways from books I&amp;rsquo;ve read over the years. I think distillation of information is an important
 mental muscle to keep strong. So I promise to always write these myself (sorry, chatgpt).&lt;/p>
 &lt;h4 id="2024">2024&lt;/h4>
 &lt;h5 id="the-last-questionhttpsusersececmuedugamvrosithelastqhtml-small-classtext-mutedisaac-asimovsmall">&lt;a href="https://users.ece.cmu.edu/~gamvrosi/thelastq.html">The Last Question&lt;/a> &lt;small class="text-muted">Isaac Asimov&lt;/small>&lt;/h5>
@@ -36,17 +36,20 @@ free to use GitHub &lt;a href="https://github.com/austingebauer/devise/issues">i
 After doing a bit of research on rendering techniques, I decided to
 learn about a particular technique called &lt;a href="https://en.wikipedia.org/wiki/Ray_tracing_(graphics)">ray tracing&lt;/a>.
 Ray tracing can be used to render photorealistic scenes.&lt;/p></description></item><item><title>About</title><link>https://austingebauer.dev/about/</link><pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate><guid>https://austingebauer.dev/about/</guid><description>&lt;h4 id="about">About&lt;/h4>
-&lt;p>Hello &amp;#x1f44b; I&amp;rsquo;m Austin Gebauer. I live in Seattle, Washington.&lt;/p>
-&lt;p>I&amp;rsquo;m a senior software engineer at &lt;a href="https://www.hashicorp.com/">HashiCorp&lt;/a> working on the
-&lt;a href="https://www.hashicorp.com/products/vault/">Vault&lt;/a> and &lt;a href="https://developer.hashicorp.com/hcp/docs/vault-secrets">HCP Vault Secrets&lt;/a>
-products. I&amp;rsquo;m also currently a graduate student at the University of Washington&amp;rsquo;s
+&lt;p>Hello &amp;#x1f44b; I&amp;rsquo;m Austin Gebauer.&lt;/p>
+&lt;p>I&amp;rsquo;m a currently a senior security software engineer on the
+&lt;a href="https://www.starlink.com/" target="_blank">Starlink&lt;/a> team at &lt;a href="https://spacex.com/"
+target="_blank">SpaceX&lt;/a>. I studied at the University of Washington&amp;rsquo;s
 &lt;a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School&lt;/a>
 of Computer Science and Engineering.&lt;/p>
-&lt;p>Previously, I&amp;rsquo;ve worked as a software engineer at
-&lt;a href="https://www.nginx.com/" target="_blank">NGINX&lt;/a> and
-&lt;a href="https://f5.com" target="_blank">F5 Networks&lt;/a>.&lt;/p>
+&lt;p>Previously, I&amp;rsquo;ve worked as a software engineer at:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nginx.com/" target="_blank">HashiCorp&lt;/a> on the &lt;a href="https://www.hashicorp.com/products/vault/" target="_blank">Vault&lt;/a> product&lt;/li>
+&lt;li>&lt;a href="https://www.nginx.com/" target="_blank">NGINX&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://f5.com" target="_blank">F5 Networks&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h4 id="contact">Contact&lt;/h4>
 &lt;p>You can reach me by email at &lt;a href="mailto:gebauer.austin@gmail.com">gebauer.austin@gmail.com&lt;/a>. You can also connect with me on
-&lt;a href="https://www.linkedin.com/in/austingebauer" target="_blank">LinkedIn&lt;/a>,
-&lt;a href="https://github.com/austingebauer" target="_blank">GitHub&lt;/a>, and
-&lt;a href="https://twitter.com/austingebauer" target="_blank">X&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;a href="https://github.com/austingebauer" target="_blank">GitHub&lt;/a>,
+&lt;a href="https://twitter.com/austingebauer" target="_blank">X&lt;/a>, and
+&lt;a href="https://www.linkedin.com/in/austingebauer" target="_blank">LinkedIn&lt;/a>.&lt;/p></description></item></channel></rss>
